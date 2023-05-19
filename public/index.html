@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1887074_cdbhj1y9z1d.css">
+    <!-- 6.22  chb icon更新 -->
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1888038_p3rp9e73i6d.css">
+    <!-- zy iconfont样式 -->
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1887074_dkt5qkq9q36.css">
+    <!-- ct iconfont样式 -->
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1891230_w9k3kpmzhpm.css">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+        body{
+            /* 必须给  不然播放页会溢出 */
+            overflow: hidden;
+        }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script src="./rem.js"></script>
+  </body>
+</html>
